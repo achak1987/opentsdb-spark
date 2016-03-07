@@ -4,7 +4,7 @@
 		module="opentsdb-spark_2.10"
 		revision="0.2"
 		status="integration"
-		publication="20150322121323"
+		publication="20160307174114"
 	>
 		<description>
 		opentsdb-spark
@@ -32,12 +32,12 @@
 		<artifact name="opentsdb-spark_2.10" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 	</publications>
 	<dependencies>
-		<dependency org="org.scala-lang" name="scala-compiler" rev="2.10.4" conf="scala-tool->default,optional(default)"/>
-		<dependency org="org.scala-lang" name="scala-library" rev="2.10.4" conf="scala-tool->default,optional(default);compile->default(compile)"/>
-		<dependency org="org.apache.spark" name="spark-core_2.10" rev="1.2.0-cdh5.3.0" conf="compile->default(compile)"/>
-		<dependency org="org.apache.hbase" name="hbase-server" rev="0.98.6-cdh5.3.0" conf="compile->default(compile)"/>
-		<dependency org="org.apache.hbase" name="hbase-common" rev="0.98.6-cdh5.3.0" conf="compile->default(compile)"/>
-		<dependency org="org.apache.hadoop" name="hadoop-common" rev="2.5.0-cdh5.3.0" conf="compile->default(compile)"/>
-		<dependency org="org.apache.hadoop" name="hadoop-client" rev="2.5.0-cdh5.3.0" conf="compile->default(compile)"/>
+		<dependency org="org.scala-lang" name="scala-compiler" rev="2.10.6" conf="scala-tool->default,optional(default)"/>
+		<dependency org="org.scala-lang" name="scala-library" rev="2.10.6" conf="scala-tool->default,optional(default);compile->default(compile)"/>
+		<dependency org="org.apache.spark" name="spark-core_2.10" rev="1.6.0" conf="compile->default(compile)"/>
+		<dependency org="org.apache.hbase" name="hbase-server" rev="1.2.0" conf="compile->default(compile)"/>
+		<dependency org="org.apache.hbase" name="hbase-common" rev="1.2.0" conf="compile->default(compile)"/>
+		<dependency org="org.apache.hadoop" name="hadoop-common" rev="2.6.2" conf="compile->default(compile)"/>
+		<dependency org="org.apache.hadoop" name="hadoop-client" rev="2.6.2" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
