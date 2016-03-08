@@ -2,3 +2,5 @@
 /target/
 /.cache-main
 /.classpath
+/home/antorweep/git/opentsdb-spark/src/main/scala/uis/cipsi/rdd/opentsdb/CustomSparkContext.scala
+/home/antorweep/git/opentsdb-spark/src/main/scala/uis/cipsi/rdd/opentsdb/Main.scala

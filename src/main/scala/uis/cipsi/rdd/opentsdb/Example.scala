@@ -11,18 +11,18 @@ import org.apache.log4j.Level
  * @author antorweep chakravorty
  *
  */
-object Main {
-  //  Logger.getLogger("org").setLevel(Level.OFF)
-  //  Logger.getLogger("akka").setLevel(Level.OFF)
+object Example {
+  Logger.getLogger("org").setLevel(Level.WARN)
+  Logger.getLogger("akka").setLevel(Level.WARN)
 
   def main(args: Array[String]) {
 
-    if (args.length != 7) {
-      println("Required params.: sparkmaster zkqourum zkport metric tagkeyval startdate enddate driverhost driverport")
+    if (args.length != 6) {
+      println("Params. found(" + args.length + "): " + args.toSeq)
+      println("Required params.: zkqourum zkport metric tagkeyval startdate enddate")
       System.exit(1)
     }
 
-    val sparkMaster = "local" //"spark://ip.or.hostname:port" //"local (for localhost)"
     val zookeeperQuorum = args(0) //"ip.or.hostname"
     val zookeeperClientPort = args(1) //"zookeeper port"
     val metric = args(2) //"Metric.Name"  
@@ -30,13 +30,15 @@ object Main {
     val startD = args(4) //"ddmmyyyyhh:mm" (or can be *)
     val endD = args(5) //"ddmmyyyyhh:mm" (or can be *)
 
-    val sc = CustomSparkContext.create(sparkMaster = sparkMaster)
+    println("metric=" + metric + ", tagvalues=" + tagVal + ", startdate= " + startD + ", enddate=" + endD)
+
+    val sc = new SparkContext
 
     //Connection to OpenTSDB
     val sparkTSDB = new SparkTSDBQuery(zookeeperQuorum, zookeeperClientPort)
     //Create RDD from OpenTSDB
     val data = sparkTSDB.generateRDD(metricName = metric, tagKeyValueMap = tagVal, startdate = startD, enddate = endD, sc)
-    println("metric=" + metric + ", tagvalues=" + tagVal + ", startdate= " + startD + ", enddate=" + endD)
+
     //Collect & Print the data
     println("RDD")
     data.collect.foreach(println)

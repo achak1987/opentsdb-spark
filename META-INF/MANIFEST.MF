@@ -1,4 +1,4 @@
 Manifest-Version: 1.0
-Scala-Compiler-Version: 2.10.4
-Main-Class: Main
+Scala-Compiler-Version: 2.10.6
+Main-Class: uis.cipsi.rdd.opentsdb.Example
 

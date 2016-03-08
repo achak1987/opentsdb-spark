@@ -16,8 +16,7 @@ import org.apache.hadoop.hbase.mapreduce.TableInputFormat
 import scala.collection.mutable.Map
 import org.apache.spark.rdd.RDD
 
-class SparkTSDBQuery(sMaster: String, zkQuorum: String, zkClientPort: String) {
-  private val sparkMaster = sMaster
+class SparkTSDBQuery(zkQuorum: String, zkClientPort: String) {
   private val zookeeperQuorum = zkQuorum
   private val zookeeperClientPort = zkClientPort
   private val format_data = new java.text.SimpleDateFormat("ddMMyyyyHH:mm")
