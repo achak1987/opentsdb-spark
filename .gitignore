@@ -2,6 +2,7 @@
 /target/
 /.cache-main
 /.classpath
+/.project
 /src/main/scala/uis/cipsi/rdd/opentsdb/CustomSparkContext.scala
 /src/main/scala/uis/cipsi/rdd/opentsdb/Main.scala
 /.setting/
