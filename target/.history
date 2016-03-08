@@ -1,4 +1,0 @@
-set name := "opentsdb-spark"
-set version := "0.2"
-set scalaVersion := "2.11.6"
-exit

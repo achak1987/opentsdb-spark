@@ -12,8 +12,8 @@ import org.apache.log4j.Level
  *
  */
 object Main {
-  Logger.getLogger("org").setLevel(Level.OFF)
-  Logger.getLogger("akka").setLevel(Level.OFF)
+//  Logger.getLogger("org").setLevel(Level.OFF)
+//  Logger.getLogger("akka").setLevel(Level.OFF)
   
   def main(args: Array[String]) {
 

@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#opentsdb-spark_2.10;0.2 [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#opentsdb-spark_2.10;0.2->org.scala-lang#scala-library;2.10.6 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.6 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6c753fe6[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@181dbfc[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.6[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.6 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.10.6] org.scala-lang#scala-library;2.10.6[0m
@@ -1304,7 +1304,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hbase/hbase-server/1.2.0/hbase-server-1.2.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hbase/hbase-server/1.2.0/hbase-server-1.2.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/hbase/hbase-server/1.2.0/hbase-server-1.2.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hbase#hbase-server;1.2.0!hbase-server.pom(pom.original) (180ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hbase#hbase-server;1.2.0!hbase-server.pom(pom.original) (216ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.hbase#hbase;1.2.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.hbase#hbase;1.2.0 {}[0m
 [0m[[0minfo[0m] [0mResolving org.apache.hbase#hbase;1.2.0 ...[0m
@@ -1318,7 +1318,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hbase/hbase/1.2.0/hbase-1.2.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hbase/hbase/1.2.0/hbase-1.2.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/hbase/hbase/1.2.0/hbase-1.2.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hbase#hbase;1.2.0!hbase.pom(pom.original) (193ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hbase#hbase;1.2.0!hbase.pom(pom.original) (248ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache#apache;12 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache#apache;12 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache#apache;12[0m
@@ -1342,7 +1342,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hbase/hbase-protocol/1.2.0/hbase-protocol-1.2.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hbase/hbase-protocol/1.2.0/hbase-protocol-1.2.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/hbase/hbase-protocol/1.2.0/hbase-protocol-1.2.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hbase#hbase-protocol;1.2.0!hbase-protocol.pom(pom.original) (132ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hbase#hbase-protocol;1.2.0!hbase-protocol.pom(pom.original) (172ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.hbase#hbase;1.2.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.hbase#hbase;1.2.0 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.hbase#hbase;1.2.0[0m
@@ -1361,7 +1361,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hbase/hbase-annotations/1.2.0/hbase-annotations-1.2.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hbase/hbase-annotations/1.2.0/hbase-annotations-1.2.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/hbase/hbase-annotations/1.2.0/hbase-annotations-1.2.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hbase#hbase-annotations;1.2.0!hbase-annotations.pom(pom.original) (127ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hbase#hbase-annotations;1.2.0!hbase-annotations.pom(pom.original) (164ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.hbase#hbase;1.2.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.hbase#hbase;1.2.0 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.hbase#hbase;1.2.0[0m
@@ -1432,9 +1432,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hbase#hbase-protocol;1.2.0->junit#junit;4.12 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hbase#hbase-server;1.2.0->org.apache.hbase#hbase-procedure;1.2.0 [compile->compile(*)][0m
 [0m[[0minfo[0m] [0mResolving org.apache.hbase#hbase-procedure;1.2.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5bce6b1c[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1ae59448[0m
 [0m[[0minfo[0m] [0mResolving org.apache.hbase#hbase-procedure;1.2.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@5bce6b1c[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@1ae59448[0m
 [0m[[0mdebug[0m] [0m		tried /home/antorweep/.ivy2/local/org.apache.hbase/hbase-procedure/1.2.0/ivys/ivy.xml[0m
 [0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.hbase#hbase-procedure;1.2.0[0m
 [0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/hbase/hbase-procedure/1.2.0/hbase-procedure-1.2.0.pom[0m
@@ -1444,7 +1444,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hbase/hbase-procedure/1.2.0/hbase-procedure-1.2.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hbase/hbase-procedure/1.2.0/hbase-procedure-1.2.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/hbase/hbase-procedure/1.2.0/hbase-procedure-1.2.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hbase#hbase-procedure;1.2.0!hbase-procedure.pom(pom.original) (129ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hbase#hbase-procedure;1.2.0!hbase-procedure.pom(pom.original) (170ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.hbase#hbase;1.2.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.hbase#hbase;1.2.0 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.hbase#hbase;1.2.0[0m
@@ -1493,7 +1493,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hbase/hbase-client/1.2.0/hbase-client-1.2.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hbase/hbase-client/1.2.0/hbase-client-1.2.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/hbase/hbase-client/1.2.0/hbase-client-1.2.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hbase#hbase-client;1.2.0!hbase-client.pom(pom.original) (129ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hbase#hbase-client;1.2.0!hbase-client.pom(pom.original) (166ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.hbase#hbase;1.2.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.hbase#hbase;1.2.0 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.hbase#hbase;1.2.0[0m
@@ -2094,7 +2094,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hbase/hbase-prefix-tree/1.2.0/hbase-prefix-tree-1.2.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hbase/hbase-prefix-tree/1.2.0/hbase-prefix-tree-1.2.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/hbase/hbase-prefix-tree/1.2.0/hbase-prefix-tree-1.2.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hbase#hbase-prefix-tree;1.2.0!hbase-prefix-tree.pom(pom.original) (134ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hbase#hbase-prefix-tree;1.2.0!hbase-prefix-tree.pom(pom.original) (261ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.hbase#hbase;1.2.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.hbase#hbase;1.2.0 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.hbase#hbase;1.2.0[0m
@@ -2240,7 +2240,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hbase/hbase-common/1.2.0/hbase-common-1.2.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hbase/hbase-common/1.2.0/hbase-common-1.2.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/hbase/hbase-common/1.2.0/hbase-common-1.2.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hbase#hbase-common;1.2.0!hbase-common.pom(pom.original) (130ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hbase#hbase-common;1.2.0!hbase-common.pom(pom.original) (257ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.hbase#hbase;1.2.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.hbase#hbase;1.2.0 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.hbase#hbase;1.2.0[0m
@@ -21607,7 +21607,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.6!scala-reflect.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.6!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 7864ms :: artifacts dl 92ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 7332ms :: artifacts dl 127ms[0m
 [0m[[0mdebug[0m] [0m	report for default#opentsdb-spark_2.10;0.2 compile produced in /home/antorweep/git/opentsdb-spark/target/resolution-cache/reports/default-opentsdb-spark_2.10-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#opentsdb-spark_2.10;0.2 runtime produced in /home/antorweep/git/opentsdb-spark/target/resolution-cache/reports/default-opentsdb-spark_2.10-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#opentsdb-spark_2.10;0.2 test produced in /home/antorweep/git/opentsdb-spark/target/resolution-cache/reports/default-opentsdb-spark_2.10-test.xml[0m
@@ -21621,5 +21621,5 @@
 [0m[[0mdebug[0m] [0m	report for default#opentsdb-spark_2.10;0.2 docs produced in /home/antorweep/git/opentsdb-spark/target/resolution-cache/reports/default-opentsdb-spark_2.10-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#opentsdb-spark_2.10;0.2 pom produced in /home/antorweep/git/opentsdb-spark/target/resolution-cache/reports/default-opentsdb-spark_2.10-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#opentsdb-spark_2.10;0.2 scala-tool produced in /home/antorweep/git/opentsdb-spark/target/resolution-cache/reports/default-opentsdb-spark_2.10-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (7864ms resolve - 92ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (7332ms resolve - 127ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

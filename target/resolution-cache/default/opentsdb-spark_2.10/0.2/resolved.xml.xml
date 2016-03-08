@@ -4,7 +4,7 @@
 		module="opentsdb-spark_2.10"
 		revision="0.2"
 		status="integration"
-		publication="20160307174114"
+		publication="20160308145456"
 	>
 		<description>
 		opentsdb-spark

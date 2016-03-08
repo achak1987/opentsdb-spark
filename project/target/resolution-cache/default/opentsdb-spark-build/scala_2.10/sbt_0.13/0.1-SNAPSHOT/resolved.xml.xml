@@ -4,7 +4,7 @@
 		module="opentsdb-spark-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20160304121316"
+		publication="20160308145452"
 		e:scalaVersion="2.10" e:sbtVersion="0.13"
 	>
 		<description>

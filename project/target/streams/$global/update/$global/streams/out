@@ -2562,7 +2562,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.11!apply-macro.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.6!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 2380ms :: artifacts dl 33ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1970ms :: artifacts dl 49ms[0m
 [0m[[0mdebug[0m] [0m	report for default#opentsdb-spark-build;0.1-SNAPSHOT compile produced in /home/antorweep/git/opentsdb-spark/project/target/resolution-cache/reports/default-opentsdb-spark-build-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#opentsdb-spark-build;0.1-SNAPSHOT runtime produced in /home/antorweep/git/opentsdb-spark/project/target/resolution-cache/reports/default-opentsdb-spark-build-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#opentsdb-spark-build;0.1-SNAPSHOT test produced in /home/antorweep/git/opentsdb-spark/project/target/resolution-cache/reports/default-opentsdb-spark-build-test.xml[0m
@@ -2576,7 +2576,7 @@
 [0m[[0mdebug[0m] [0m	report for default#opentsdb-spark-build;0.1-SNAPSHOT docs produced in /home/antorweep/git/opentsdb-spark/project/target/resolution-cache/reports/default-opentsdb-spark-build-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#opentsdb-spark-build;0.1-SNAPSHOT pom produced in /home/antorweep/git/opentsdb-spark/project/target/resolution-cache/reports/default-opentsdb-spark-build-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#opentsdb-spark-build;0.1-SNAPSHOT scala-tool produced in /home/antorweep/git/opentsdb-spark/project/target/resolution-cache/reports/default-opentsdb-spark-build-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (2380ms resolve - 33ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (1970ms resolve - 49ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m
 [0m[[33mwarn[0m] [0mThere may be incompatibilities among your library dependencies.[0m
 [0m[[33mwarn[0m] [0mHere are some of the libraries that were evicted:[0m
