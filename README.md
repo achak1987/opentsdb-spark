@@ -43,9 +43,9 @@ opentsdn.end.date (as ddmmyyyyhh:mm or can be "*") \
 ## Prepare example data set
 1. Make sure that your opentsdb server is up and running
 2. Create a metrics with 
-  * ./tsdb mkmetric example.cpu.user
+  * *./tsdb mkmetric example.cpu.user*
 3. on your terminal execute
-  * nc opentsdb.hostname opentsdb.port
+  * *nc opentsdb.hostname opentsdb.port*
   * copy and paste the following
   ```
   put example.cpu.user 1457367300 42.5 host=webserver00 cpu=0
