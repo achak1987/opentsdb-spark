@@ -23,7 +23,7 @@ Module for accessing OpenTSDB data through Spark.
 spark://ip.or.hostname:port \
 zookeeper.ip.or.hostname \
 zookeeper.port metric.name \
-tag.key->tag.value (can also be * or tag.key->tag.value, or tag.key-> * or tag.key1->tag.value1,tag.key2->tag.value2,...) \
+tag.key->tag.value (can also be * or tag.key->tag.value, or tag.key->* or tag.key1->tag.value1,tag.key2->tag.value2,...) \
 opentsdb.start.date (as ddmmyyyyhh:mm or can be *) \
 opentsdn.end.date (as ddmmyyyyhh:mm or can be *) \
 ```
