@@ -62,7 +62,7 @@ opentsdn.end.date (as ddmmyyyyhh:mm or can be *) \
 4. Press Ctrl + C to exit
 
 ## Running (result RDD as (timestamp, value)
-1. with metric=example.cpu.user, tagvalues=*, startdate= *, enddate=* 
+1. with metric=example.cpu.user, tagvalues=\*, startdate=\*, enddate=\* 
   
   ```
   RDD
@@ -82,7 +82,7 @@ opentsdn.end.date (as ddmmyyyyhh:mm or can be *) \
   Total datapoint= 13
   ```
   
-  2. with metric=example.cpu.user, tagvalues=cpu->1, startdate= *, enddate=*
+  2. with metric=example.cpu.user, tagvalues=cpu->1, startdate=\*, enddate=\*
  
   ```
   RDD
@@ -95,7 +95,7 @@ opentsdn.end.date (as ddmmyyyyhh:mm or can be *) \
   Total datapoint= 6
   ```
   
-  3. with metric=example.cpu.user, tagvalues=cpu->1,host->webserver02, startdate= *, enddate=*
+  3. with metric=example.cpu.user, tagvalues=cpu->1,host->webserver02, startdate=\*, enddate=\*
   
   ```
   RDD
@@ -106,7 +106,7 @@ opentsdn.end.date (as ddmmyyyyhh:mm or can be *) \
   Total datapoint= 4
   ```
   
-  4. with metric=example.cpu.user, tagvalues=*, startdate= 0703201617:00, enddate=0703201619:00
+  4. with metric=example.cpu.user, tagvalues=\*, startdate= 0703201617:00, enddate=0703201619:00
   
   ```
   RDD
