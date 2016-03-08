@@ -147,6 +147,7 @@ class SparkTSDBQuery(zkQuorum: String, zkClientPort: String) {
             val a = next.getKey();
             val b = next.getValue();
 
+            //TODO: changes operations on binary strings to bits
             def processQuantifier(quantifier: Array[Byte]): Array[(Int, Boolean, Int)] = {
               //converting Byte Arrays to a Array of binary string
               val q = quantifier.map({ v => Integer.toBinaryString(v & 255 | 256).substring(1) })
@@ -181,6 +182,7 @@ class SparkTSDBQuery(zkQuorum: String, zkClientPort: String) {
               out.toArray
             }
 
+            //TODO: changes operations on binary strings to bits
             def processValues(quantifier: Array[(Int, Boolean, Int)], values: Array[Byte]): Array[Double] = {
               //converting Byte Arrays to a Array of binary string
               val v = values.map({ v => Integer.toBinaryString(v & 255 | 256).substring(1) }).mkString
@@ -201,10 +203,15 @@ class SparkTSDBQuery(zkQuorum: String, zkClientPort: String) {
                   val exp = Integer.parseInt(_value.substring(1, 9), 2) - 127
                   val significand = 1 + _value.substring(9).map({ var i = 0; m => i += 1; m.asDigit / math.pow(2, i) }).sum
                   sign * math.pow(2, exp) * significand
-                } else Integer.parseInt(_value, 2).toDouble)
+                } else {
+                  val o = Integer.parseInt(_value, 2).toDouble
+                  //#hotfix: signed interger ov value -1 is represented as 11111111, which gets converted to 255
+                  if(o==255.0) -1.toDouble else o
+                  })
 
                 i += valueSize
                 j += 1
+                
 
                 out += value
               }
