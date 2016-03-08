@@ -14,9 +14,7 @@ import scala.reflect.io.Path.string2path
  *
  */
 object CustomSparkContext {
-  def create(sparkMaster:String = "local",
-      zookeeperQuorum:String = "localhost",
-      zookeeperClientPort:String = "2181"): SparkContext = {
+  def create(sparkMaster:String = "local"): SparkContext = {
     //creating spark context
     val sparkConf = new SparkConf()
     sparkConf.setAppName("opentsdb-spark")    

@@ -30,9 +30,7 @@ object Main {
     val startD = args(5) //"ddmmyyyyhh:mm" (or can be *)
     val endD = args(6) //"ddmmyyyyhh:mm" (or can be *)
 
-    val sc = CustomSparkContext.create(sparkMaster = sparkMaster,
-      zookeeperQuorum = zookeeperQuorum,
-      zookeeperClientPort = zookeeperClientPort)
+    val sc = CustomSparkContext.create(sparkMaster = sparkMaster)
 
     //Connection to OpenTSDB
     val sparkTSDB = new SparkTSDBQuery(sparkMaster, zookeeperQuorum, zookeeperClientPort)
