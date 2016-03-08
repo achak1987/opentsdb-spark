@@ -12,20 +12,29 @@ Module for accessing OpenTSDB data through Spark.
   4. sbt clean eclipse (if you dont have sbt, it can be installed from www.scala-sbt.org)
   5. The project can be now imported into eclipse
 
-##On your cluster, ensure that you have HBASE on your Apache Spark class path
+##On your cluster, ensure that you have HBASE on your Apache Spark class path. You could add HBASE LIBS to spark class path by coping the following lines to the bottom of your *conf/spark-env.sh* file
+  
+  ```
+  ##HBASE home directory
+  export HBASE_HOME=/path/to/hbase/home
+  #Add HBASE libs to Spark CLASSPATH
+  for f in $HBASE_HOME/lib/*.jar
+    do
+      export SPARK_CLASSPATH="$SPARK_CLASSPATH:$f"
+    done
+  ```
 
 # Example Execute
 ```
 ./spark-submit \
---master spark://host.name:7077 \
---class uis.cipsi.rdd.opentsdb.Main \
-/path/to/your/jar/opentsdb-spark-1.0.jar \
-spark://ip.or.hostname:port \
+--master spark.master \
+--class uis.cipsi.rdd.opentsdb.Example \
+/path/to/your/jar/opentsdb-spark-.jar \
 zookeeper.ip.or.hostname \
 zookeeper.port metric.name \
-tag.key->tag.value (can also be * or tag.key->tag.value, or tag.key->* or tag.key1->tag.value1,tag.key2->tag.value2,...) \
-opentsdb.start.date (as ddmmyyyyhh:mm or can be *) \
-opentsdn.end.date (as ddmmyyyyhh:mm or can be *) \
+tag.key->tag.value (can also be "*" or tag.key->tag.value, or tag.key->* or tag.key1->tag.value1,tag.key2->tag.value2,...) \
+opentsdb.start.date (as ddmmyyyyhh:mm or can be "*") \
+opentsdn.end.date (as ddmmyyyyhh:mm or can be "*") \
 ```
 # Tested with
   apache spark 1.6.0, apache hbase 1.2.0, apache hadoop 2.6.2, opentsdb 2.2.0
